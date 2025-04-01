@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('chocolate_background.jpg'); /* Reemplaza con tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    height: 100vh; /* Para que la portada ocupe toda la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portada {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.portada h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.portada p {
+    font-size: 1.2em;
+}
+
